@@ -8,7 +8,7 @@ if sys.platform == "win32":
 build_exe_options = {'excludes': ['tkinter', 'multiprocessing', 'OpenSSL',
                                   'PIL', 'IPython', 'ConfigParser', 'configparser'
                                   'SocketServer', 'asyncio', 'Queue',
-                                  'cffi', 'curses', 'html']}
+                                  'cffi', 'curses', 'html' ]}
 
 setup(name='TSPSolver',
       version='1.1',
